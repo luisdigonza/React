@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/luisdigonza/React.git/static/css/main.09d83831.css",
+    "main.js": "/luisdigonza/React.git/static/js/main.2b15ff40.js",
+    "static/js/787.2c1da090.chunk.js": "/luisdigonza/React.git/static/js/787.2c1da090.chunk.js",
+    "static/media/foto-diego.jpeg": "/luisdigonza/React.git/static/media/foto-diego.6d6fe24959cd27fd639f.jpeg",
+    "index.html": "/luisdigonza/React.git/index.html",
+    "main.09d83831.css.map": "/luisdigonza/React.git/static/css/main.09d83831.css.map",
+    "main.2b15ff40.js.map": "/luisdigonza/React.git/static/js/main.2b15ff40.js.map",
+    "787.2c1da090.chunk.js.map": "/luisdigonza/React.git/static/js/787.2c1da090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d83831.css",
+    "static/js/main.2b15ff40.js"
+  ]
+}
