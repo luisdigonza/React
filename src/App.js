@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Aux from './components/header';
+import FooterAux from './components/footer';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </a>
         <Aux></Aux>
       </header>
+      <footer>
+        <FooterAux></FooterAux>
+      </footer>
     </div>
   );
 }
