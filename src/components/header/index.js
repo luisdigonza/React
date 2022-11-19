@@ -1,22 +1,24 @@
 import React from 'react';
-import Alert from 'react-bootstrap/Alert';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar'
 
 function Aux() {
   return (
-    <Alert variant="success">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
-      <p>
-        Aww yeah, you successfully read this important alert message. This
-        example text is going to run a bit longer so that you can see how
-        spacing within an alert works with this kind of content.
-      </p>
-      <hr />
-      <p className="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
-      </p>
-    </Alert>
+    <Navbar bg="dark" variant="dark">
+    <Container>
+      <Navbar.Brand href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ball-football" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" />
+        <path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" />
+      </svg>
+        Hoja de vida
+      </Navbar.Brand>
+    </Container> 
+  </Navbar>
   );
-}
+};
 
 export default Aux;

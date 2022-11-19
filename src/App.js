@@ -1,30 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Aux from './components/header';
-import FooterAux from './components/footer';
+import {Row, Container} from "react-bootstrap";
+import Body from './components/body';
+import Derecha from './components/sectionRight';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <Aux></Aux>
-      </header>
+        <Container className='container-cv my-2 rounded-5'>
+          <Row>
+          <div class="col-sm-12 col-md-4 col-lg-4 px-left-0">
+            <Body></Body>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8"> 
+            <Derecha></Derecha>
+          </div>
+          </Row>
+        </Container>
       <footer>
-        <FooterAux></FooterAux>
       </footer>
     </div>
   );
